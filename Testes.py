@@ -5,7 +5,8 @@ time.sleep(1)
 print('Estou pensando em um número entre 0 e 10... você consegue adivinhar em qual número estou pensando?')
 
 # Utilizando repetidor "While"
-'''tentativas = 1
+
+tentativas = 1
 print('-'*7, f'Tentativa {tentativas}', '-'*7)
 num_chute = int(input('Qual número estou pensando? '))
 num_certo = random.randint(0,10)
@@ -17,7 +18,7 @@ while num_certo != num_chute:
     num_chute = int(input('Qual número estou pensando? '))
     num_certo = random.randint(0,10)
 
-print(f'Você chutou {num_chute} e eu pensei no mesmo número. Você acertou com {tentativas} tentativas')'''
+print(f'Você chutou {num_chute} e eu pensei no mesmo número. Você acertou com {tentativas} tentativas')
 
 
 # Utilizando repetidor "For"
